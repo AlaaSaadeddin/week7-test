@@ -19,3 +19,4 @@ const getData = (req, res, next) => getCities().then((data) => {
   router.get('/cities', getData);
   router.post('/add-city', addData);
 module.exports = router;
+
